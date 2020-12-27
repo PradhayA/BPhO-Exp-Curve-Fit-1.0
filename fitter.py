@@ -9,7 +9,7 @@ x = [0.723938224, 0.965250965, 1.206563707, 1.447876448, 1.689189189, 1.93050193
 y = [2.758, 2.443, 2.142333333, 1.911, 1.817666667, 1.688333333, 1.616]
 
 
-# Curve fit equation for the power law a/(x^b)
+# Curve fit equation for the power law a/(x^b) ; This was derived from the original equation stated in the document
 def func(x, a, b):
     global r
     global s
